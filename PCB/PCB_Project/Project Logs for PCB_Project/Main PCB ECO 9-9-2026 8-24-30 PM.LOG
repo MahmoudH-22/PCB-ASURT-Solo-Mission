@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=MCU_NRST Pin=C10-2
+Removed Pin From Net: NetName=MCU_NRST Pin=U1-7
+Added Component: Designator=R7(0402)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/R0402/Wiegmann/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Wiegmann"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "R0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/R0402/Wiegmann/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_NRST Pin=R7-1
+Change Net Name : Old Net Name=MCU_NRST New Net Name=+3V3
+Added Pin To Net: NetName=MCU_NRST Pin=C10-2
+Added Pin To Net: NetName=MCU_NRST Pin=R7-2
+Added Pin To Net: NetName=MCU_NRST Pin=U1-7
+Added Net: Name=MCU_NRST
+Add Differential Pair: Number of nets in differential pair USB D N is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair USB D P is 1 instead of 2
+Added Rule: Name=Schematic Supply Nets_4
