@@ -60,6 +60,12 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 /* USER CODE BEGIN Private defines */
 
+/* Milestone 1 - LED blink target: on-board LED on PC13 (change if your
+   board wires the LED to a different pin). */
+#define LED_Pin                 GPIO_PIN_13
+#define LED_GPIO_Port           GPIOC
+#define LED_GPIO_CLK_ENABLE()   __HAL_RCC_GPIOC_CLK_ENABLE()
+
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
